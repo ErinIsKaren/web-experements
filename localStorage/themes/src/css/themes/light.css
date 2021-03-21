@@ -1,0 +1,28 @@
+html {
+    background-color: skyblue;
+    transition: ease-in-out 0.4s;
+}
+
+.toggle::after {
+    left: 5px;
+    background-color: white;
+    transition: ease-in-out 0.2s;
+    box-shadow: rgb(0, 0, 0, 0.5) 60px 0px 0px;
+}
+
+.toggle {
+    background-color: #72767d;
+    border: solid 2px white;
+    transition: ease-in-out 0.2s;
+}
+
+.dark {
+    display: none;
+}
+
+.light {
+    border: solid orangered;
+    padding-bottom: 5px;
+    border-width: 0px 0px 2px 0px;
+    color: orangered;
+}

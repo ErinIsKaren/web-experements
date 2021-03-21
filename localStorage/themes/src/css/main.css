@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.checkbox {
+    display: none;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    background: -webkit-linear-gradient(silver, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 10;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-shadow: rgb(0, 0, 0, 0.5) 1px 0px 2px, rgb(0, 0, 0, 0.5) 0px 1px 2px, rgb(0, 0, 0, 0.5) -1px 0px 2px, rgb(0, 0, 0, 0.5) 0px -1px 2px;
+}

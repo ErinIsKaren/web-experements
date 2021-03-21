@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <title>Erin Collins | Web Experements - localStorage/themes</title>
+    <!-- ˜60 chars -->
+    <meta name="description" content="A simple toggle slider that changes the theme of a website, which is saved with local storage.">
+    <!-- ˜150 chars -->
+    <link rel="shortcut icon" href="https://erinrcollins.github.io/src/img/logo.png">
+    <meta property="og:title" content="Erin Collins | Web Experements - localStorage/themes">
+    <meta property="og:description" content="A simple toggle slider that changes the theme of a website, which is saved with local storage.">
+    <!-- ˜300 chars -->
+    <meta property="og:site_name" content="Erin Collins">
+    <meta property="og:locale" content="es_AR">
+    <meta name='theme-color' content='#3498db'>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://erinrcollins.github.io/">
+    <meta property="og:image" content="https://erinrcollins.github.io/src/img/logo.png">
+    <!-- 200x200px - 1200x1200px -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/navbar.css">
+    <link id="style-light" rel="stylesheet" href="./src/css/themes/light.css" />
+    <link id="style-dark" disabled rel="stylesheet" href="./src/css/themes/dark.css" />
+
+    <script src="./src/js/main.js"></script>
+</head>
+
+<body>
+
+    <center>
+        <p style="font-size: 10px;">Erin Collins - Web Experement</p>
+        <h1>Toggleable Theme</h1>
+        <p>The switch below you is a toggle, flip it and the whole page changes. You reload the page and the theme stays.</p>
+        <hr style="border: none; margin: 30px 0px 30px 0px;">
+        <button type="checkbox" id="switch" class="checkbox" onclick="theme_toggle(); return false;"></button>
+        <label for="switch" class="toggle"></label>
+        <hr style="border: none; margin: 30px 0px 30px 0px;">
+        <p>Current Stylesheet: <b class="light">light-theme.css</b><b class="dark">dark-theme.css</b></p>
+    </center>
+
+</body>
+
+</html>
